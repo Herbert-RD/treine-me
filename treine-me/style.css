@@ -8,28 +8,25 @@ a {
 
   font-size: 18px;
   color: #1F1534;
+  
 }
 
 .not-in-page {
   color: #1f153471;
+  
 
 }
 
 #links {
-  display: inline;
-
-}
-
-a + a{ 
-  margin-left: 48px;
+  display: flex;
+  gap: 48px;
 }
 
 header {
   margin-top: 65px;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-right: 153px;
-  margin-left: 122px;
 
 }
 
@@ -50,7 +47,7 @@ h1 span {
   display: flex;
 
   justify-content: space-between;
-  margin: 58px 153px 50px 119px;
+
 }
 
 #right-info{
@@ -74,6 +71,7 @@ h1 span {
 #whatsapp-button{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   padding: 0px;
 
@@ -83,6 +81,12 @@ h1 span {
 
   width: 179px;
   height: 56px;
+
+  cursor: pointer;
+}
+
+#whatsapp-button:hover{
+  background-color: #469e7f;
 }
 
 #whatsapp-button p{
@@ -102,4 +106,10 @@ footer p {
   font-family: 'Open Sans';
   margin: 30px auto;
   text-align: center;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+  
 }
